@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+}
+button:hover {
+  cursor: pointer;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  margin: 1% 20%;
+}
+.header_btn {
+  width: 30vw;
+  height: 4vh;
+  display: flex;
+}
+.header_demo_account_btn {
+  border-radius: 5px;
+  background: linear-gradient(to right, #2d5e6c, #5da179);
+  color: white;
+  padding: 0 2%;
+  border: none;
+  width: 30%;
+}
+.header_real_account_btn {
+  border-radius: 5px;
+  background: #ffc93b;
+  color: white;
+  padding: 0 2%;
+  border: none;
+  width: 30%;
+  margin: 0 3%;
+}
+.header_contact_btn {
+  border-radius: 5px;
+  padding: 0 2%;
+  border: none;
+  width: 30%;
+}
+.container {
+  text-align: center;
+  margin: 0 20%;
+}
+.container_product_grid {
+  display: grid;
+  grid-template-columns: 15vw 15vw;
+  grid-template-rows: 5vh 5vh;
+  margin: 5% 22%;
+  column-gap: 10%;
+  row-gap: 40%;
+}
+i {
+  color: white;
+}
+.metal {
+  grid-area: 1;
+  border: none;
+  background: linear-gradient(to right, #2d5e6c, #5da179);
+  border-radius: 5px;
+  display: flex;
+  padding: 2%;
+}
+.metal p {
+  font-size: 20px;
+  padding: 1%;
+  margin-left: 20%;
+  color: #fdcd39;
+}
+.energy {
+  grid-area: 1;
+  border: none;
+  background: linear-gradient(to right, #2d5e6c, #5da179);
+  border-radius: 5px;
+  display: flex;
+  padding: 2%;
+}
+.energy p {
+  font-size: 20px;
+  padding: 1%;
+  margin-left: 25%;
+  color: #fdcd39;
+}
+.farm {
+  grid-area: 2;
+  border: none;
+  background: linear-gradient(to right, #2d5e6c, #5da179);
+  border-radius: 5px;
+  display: flex;
+  padding: 2%;
+}
+.farm p {
+  font-size: 20px;
+  padding: 1%;
+  margin-left: 20%;
+  color: #fdcd39;
+}
+.industry {
+  grid-area: 2;
+  border: none;
+  background: linear-gradient(to right, #2d5e6c, #5da179);
+  border-radius: 5px;
+  display: flex;
+  padding: 2%;
+}
+.industry p {
+  font-size: 20px;
+  padding: 1%;
+  margin-left: 20%;
+  color: #fdcd39;
+}
+
+.container_invest_channel_table {
+  margin-top: 15%;
+}
+.container_invest_channel_table h2 {
+  font-size: 25px;
+  font-family: "Francois One", sans-serif;
+  background: #447881;
+  color: white;
+  margin: 5% 25%;
+  padding: 1%;
+  border-radius: 5px;
+}
+.invest_channel_table {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  /* border: 1 solid black;
+  border-radius: 15px; */
+}
+.invest_channel_table > div {
+  border: 1px solid black;
+  padding: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.red_cell_table {
+  color: red;
+}
+.head-table {
+  background-color: #facc46;
+}
+.registry_btn {
+  font-size: 25px;
+  font-family: "Francois One", sans-serif;
+  background: linear-gradient(to right, #2d5e6c, #5da179);
+  color: white;
+  margin: 5% 25% 0 25%;
+  padding: 1%;
+  border-radius: 5px;
+  border: none;
+}
+.why_choose_us {
+  margin-top: -5%;
+}
+.smart_basis {
+  width: 100%;
+  background-color: #fecd39;
+  margin-top: 6%;
+}
+.smart_basis h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2%;
+  font-size: 20px;
+}
+.smart_basis_meta {
+  display: flex;
+  background: linear-gradient(to right, #2d5e6c, #5da179);
+  padding: 3%;
+}
+.smart_basis_img img {
+  width: 100%;
+}
+.smart_basis_img p {
+  margin-top: 5%;
+  font-size: 12px;
+  color: #fecd39;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.smart_basis_desc_list {
+  list-style: none;
+  text-align: left;
+  padding: 3% 10%;
+  line-height: 4vh;
+  color: white;
+  font-size: 20px;
+}
+.smart_basis_desc_list span {
+  margin-left: 3%;
+}
+.how_to_use {
+  width: 100%;
+}
+footer {
+  background-image: url(./img/4.png);
+  display: flex;
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10%;
+  padding: 12%;
+}
+.offer_open_account {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.offer_open_account h3 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.offer_open_account p {
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #ffce2a;
+  text-align: center;
+}
+.cta {
+  margin-top: 5%;
+  display: flex;
+  height: 100%;
+  width: 70%;
+}
+.demo_account_btn {
+    background-color: #ffce2a;
+    color: white;
+    padding: 4%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 8%;
+    margin-left: 10%;
+}
+.real_account_btn {
+    background-color: #ffce2a;
+    color: white;
+    padding: 4%;
+    border: none;
+    border-radius: 5px;
+}
